@@ -10,7 +10,7 @@
         }
     ],
     "scripts": {
-        "satis:build": "php ./vendor/composer/satis/bin/satis build satis.json"
+        "satis:build": "/usr/bin/env php ./vendor/composer/satis/bin/satis build satis.json"
     },
     "require": {
         "composer/satis": "dev-master"
